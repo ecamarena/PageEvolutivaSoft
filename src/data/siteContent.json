@@ -1,0 +1,257 @@
+{
+    "hero": {
+        "titleStart": "Tomamos decisiones digitales antes de que se vuelvan",
+        "titleHighlight": "errores costosos",
+        "subtitle": "Ayudamos a empresas medianas a validar iniciativas digitales y decidir con claridad antes de invertir tiempo y dinero en grande.",
+        "ctaPrimary": "Conversemos sobre tu iniciativa",
+        "ctaSecondary": "Ver cómo trabajamos"
+    },
+    "problem": {
+        "title": "El Problema",
+        "description": "Muchas iniciativas digitales fracasan no por mala tecnología, sino por malas decisiones iniciales.",
+        "list1": [
+            "Proyectos que crecen sin validar impacto",
+            "Sistemas costosos que no resuelven el problema real"
+        ],
+        "list2": [
+            "Equipos de TI saturados ejecutando pedidos sin claridad",
+            "Decisiones tomadas con información incompleta"
+        ],
+        "summary": "Invertir en software sin validar es uno de los riesgos más caros para una empresa en crecimiento."
+    },
+    "valueProposition": {
+        "title": "No construimos primero. Decidimos primero.",
+        "description": "Nuestro enfoque se basa en reducir el riesgo antes de escalar una inversión digital.",
+        "cards": [
+            {
+                "number": "1",
+                "text": "Analizamos el problema real de negocio"
+            },
+            {
+                "number": "2",
+                "text": "Definimos qué vale la pena construir (y qué no)"
+            },
+            {
+                "number": "3",
+                "text": "Desarrollamos solo lo indispensable para validar"
+            },
+            {
+                "number": "4",
+                "text": "Medimos impacto antes de continuar"
+            }
+        ],
+        "summary": "El éxito no es entregar software, es tomar una buena decisión."
+    },
+    "service": {
+        "title": "Sprint de Validación Digital",
+        "description": "Un servicio estructurado para convertir ideas en decisiones claras.",
+        "details": [
+            {
+                "label": "Duración",
+                "value": "4 a 6 semanas",
+                "icon": "⏱️"
+            },
+            {
+                "label": "Modalidad",
+                "value": "Proyecto con alcance y precio cerrado",
+                "icon": "💼"
+            },
+            {
+                "label": "Resultado",
+                "value": "Decisión ejecutiva informada",
+                "icon": "🎯"
+            }
+        ],
+        "includesTitle": "¿Qué incluye?",
+        "includes": [
+            "Entendimiento del problema de negocio",
+            "Análisis de impacto, riesgos y viabilidad",
+            "Definición del alcance mínimo necesario",
+            "Desarrollo de una solución mínima (si aplica)",
+            "Métricas claras para evaluar resultados",
+            "Recomendación final: escalar, ajustar o detener"
+        ],
+        "note": "Incluso si la mejor decisión es no construir nada, el sprint se considera exitoso."
+    },
+    "differentiation": {
+        "title": "Qué nos diferencia",
+        "cards": [
+            {
+                "text": "No medimos éxito por entregables"
+            },
+            {
+                "text": "No alargamos proyectos para facturar más"
+            },
+            {
+                "text": "No rotamos personas clave"
+            },
+            {
+                "text": "No aceptamos proyectos sin cuestionarlos"
+            },
+            {
+                "text": "Podemos recomendar no continuar si no hay valor",
+                "fullWidth": true
+            }
+        ],
+        "summary": "Somos socios en la decisión, no solo ejecutores."
+    },
+    "targetAudience": {
+        "title": "A quién ayudamos",
+        "description": "Trabajamos con empresas medianas (200–1000 colaboradores) que:",
+        "list": [
+            "Tienen iniciativas digitales estancadas",
+            "Necesitan priorizar mejor sus inversiones",
+            "Buscan resultados medibles, no solo tecnología",
+            "Valoran claridad y criterio en la toma de decisiones"
+        ],
+        "note": "No trabajamos con proyectos enfocados únicamente en precio o desarrollo sin validación.",
+        "imagePlaceholder": "Imagen Representativa"
+    },
+    "methodology": {
+        "title": "Cómo trabajamos",
+        "steps": [
+            {
+                "number": "1",
+                "title": "Conversamos",
+                "subtitle": "sobre el problema"
+            },
+            {
+                "number": "2",
+                "title": "Evaluamos",
+                "subtitle": "si el enfoque tiene sentido"
+            },
+            {
+                "number": "3",
+                "title": "Proponemos",
+                "subtitle": "un Sprint de Validación"
+            },
+            {
+                "number": "4",
+                "title": "Ejecutamos",
+                "subtitle": "con foco y transparencia"
+            },
+            {
+                "number": "5",
+                "title": "Entregamos",
+                "subtitle": "una recomendación clara"
+            }
+        ],
+        "note": "Si no somos la empresa correcta para el enfoque planteado, lo decimos."
+    },
+    "about": {
+        "title": "Sobre nosotros",
+        "text": [
+            "Somos una consultora con base técnica y enfoque en negocio.",
+            "Nuestro equipo cuenta con experiencia en desarrollo de soluciones digitales, arquitectura y gestión de proyectos, trabajando de forma cercana con áreas de TI y negocio.",
+            "Nos especializamos en traducir problemas empresariales en decisiones tecnológicas bien fundamentadas."
+        ]
+    },
+    "faq": {
+        "title": "Preguntas Frecuentes",
+        "items": [
+            {
+                "question": "¿Desarrollan sistemas completos?",
+                "answer": "Sí, pero solo después de validar que la iniciativa genera valor."
+            },
+            {
+                "question": "¿Qué pasa si al final no se construye nada?",
+                "answer": "El objetivo del sprint es decidir correctamente. Evitar una mala inversión también es un resultado valioso."
+            },
+            {
+                "question": "¿Trabajan por horas?",
+                "answer": "Nuestro servicio principal es por proyecto cerrado. Otros esquemas se evalúan solo después de una validación."
+            }
+        ]
+    },
+    "ctaFinal": {
+        "title": "Antes de invertir en desarrollo, invierte en decidir bien.",
+        "button": "Agenda una conversación"
+    },
+    "footer": {
+        "brandDescription": "Decisiones claras antes de grandes inversiones. Ayudamos a empresas a validar iniciativas digitales antes de escalar.",
+        "menuTitle": "Menú",
+        "menu": [
+            {
+                "text": "Inicio",
+                "href": "/"
+            },
+            {
+                "text": "Cómo trabajamos",
+                "href": "#how-we-work"
+            },
+            {
+                "text": "Contacto",
+                "href": "/contact"
+            }
+        ],
+        "contactTitle": "Contacto",
+        "contact": [
+            {
+                "text": "Agenda una conversación",
+                "href": "/contact"
+            }
+        ]
+    },
+    "aboutPage": {
+        "title": "Sobre Nosotros",
+        "subtitle": "Somos un equipo apasionado por la tecnología y el diseño, dedicados a transformar negocios a través de soluciones digitales innovadoras.",
+        "storyTitle": "Nuestra Historia",
+        "storyText1": "Fundada en 2023, NovaWeb Solutions nació con el propósito de ayudar a las empresas a navegar la complejidad del mundo digital. Vimos una oportunidad de ofrecer servicios que no solo se vean bien, sino que funcionen excepcionalmente bien.",
+        "storyText2": "Creemos en el código limpio, el diseño intuitivo y las estrategias basadas en datos. Nuestro equipo combina creatividad técnica con perspicacia comercial para entregar productos que realmente impulsan el crecimiento.",
+        "mission": {
+            "title": "Nuestra Misión",
+            "text": "Empoderar a las empresas de todos los tamaños para que alcancen su máximo potencial digital mediante soluciones web innovadoras, accesibles y de alto rendimiento."
+        },
+        "vision": {
+            "title": "Nuestra Visión",
+            "text": "Ser referentes globales en desarrollo web y diseño digital, reconocidos por nuestra excelencia técnica, creatividad y compromiso inquebrantable con el éxito de nuestros clientes."
+        }
+    },
+    "servicesPage": {
+        "title": "Nuestros Servicios",
+        "subtitle": "Soluciones integrales para potenciar tu presencia digital.",
+        "services": [
+            {
+                "title": "Diseño Web",
+                "description": "Creamos experiencias visuales impactantes que cautivan a tu audiencia. Diseños únicos, modernos y alineados con tu identidad de marca.",
+                "color": "bg-blue-600"
+            },
+            {
+                "title": "Desarrollo Frontend",
+                "description": "Código limpio, rápido y escalable. Utilizamos las últimas tecnologías como React, Astro y Vue para interfaces interactivas y performantes.",
+                "color": "bg-purple-600"
+            },
+            {
+                "title": "Optimización SEO",
+                "description": "Mejoramos tu visibilidad en buscadores. Estrategias técnicas y de contenido para posicionar tu web en los primeros resultados.",
+                "color": "bg-green-600"
+            }
+        ],
+        "includesTitle": "¿Qué incluye este servicio?",
+        "includes": [
+            "Análisis inicial y estrategia personalizada",
+            "Implementación con mejores prácticas de la industria",
+            "Soporte y mantenimiento continuo"
+        ]
+    },
+    "contactPage": {
+        "title": "Contáctanos",
+        "subtitle": "Estamos listos para escuchar sobre tu proyecto",
+        "infoTitle": "Información de contacto",
+        "infoSubtitle": "Rellena el formulario y nuestro equipo se pondrá en contacto contigo en menos de 24 horas.",
+        "phone": "+34 912 345 678",
+        "email": "hola@novaweb.com",
+        "address": "C/ Tecnología Digital 123, Madrid",
+        "form": {
+            "nameLabel": "Nombre",
+            "namePlaceholder": "Tu nombre",
+            "surnameLabel": "Apellido",
+            "surnamePlaceholder": "Tu apellido",
+            "emailLabel": "Email",
+            "emailPlaceholder": "ejemplo@correo.com",
+            "messageLabel": "Mensaje",
+            "messagePlaceholder": "Cuéntanos sobre tu proyecto...",
+            "submitButton": "Enviar Mensaje"
+        }
+    }
+}

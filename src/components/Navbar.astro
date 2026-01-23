@@ -1,0 +1,80 @@
+---
+const navItems = [
+  { name: 'Inicio', href: '/' },
+  { name: 'Nosotros', href: '/about' },
+  { name: 'Servicios', href: '/services' },
+  { name: 'Contacto', href: '/contact' },
+];
+---
+
+<header class="fixed w-full bg-white/90 backdrop-blur-md shadow-sm z-50 top-0">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center h-20">
+      
+      <div class="flex-shrink-0 flex items-center">
+        <a href="/" class="flex items-center gap-3">
+            <img src="/logo-icon.png" alt="Evolutiva Soft Logo" class="h-16 w-auto" />
+            <span class="text-2xl font-bold text-primary tracking-tight">EVOLUTIVA <span class="text-secondary">SOFT</span></span>
+        </a>
+      </div>
+
+      <!-- Desktop Menu -->
+      <nav class="hidden md:flex space-x-8 items-center">
+        {navItems.map((item) => (
+          <a
+            href={item.href}
+            class="text-gray-700 hover:text-secondary px-3 py-2 rounded-md text-sm font-medium transition-colors"
+          >
+            {item.name}
+          </a>
+        ))}
+        <a href="/contact" class="bg-secondary hover:bg-lime-600 text-white px-5 py-2.5 rounded-lg text-sm font-bold transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5">
+            Solicitar Presupuesto
+        </a>
+      </nav>
+
+      <!-- Mobile Menu Button -->
+      <div class="flex items-center md:hidden">
+        <button
+          type="button"
+          id="mobile-menu-btn"
+          class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary"
+          aria-controls="mobile-menu"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Abrir menú principal</span>
+          <!-- Icon menu -->
+          <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div class="hidden md:hidden" id="mobile-menu">
+    <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t border-gray-100">
+      {navItems.map((item) => (
+        <a
+          href={item.href}
+          class="text-gray-600 hover:text-primary hover:bg-gray-50 block px-3 py-2 rounded-md text-base font-medium"
+        >
+          {item.name}
+        </a>
+      ))}
+       <a href="/contact" class="block w-full text-center mt-4 bg-secondary hover:bg-lime-600 text-white px-4 py-3 rounded-lg text-base font-bold transition-colors shadow-md">
+            Solicitar Presupuesto
+        </a>
+    </div>
+  </div>
+</header>
+
+<script>
+  const btn = document.getElementById('mobile-menu-btn');
+  const menu = document.getElementById('mobile-menu');
+
+  btn?.addEventListener('click', () => {
+    menu?.classList.toggle('hidden');
+  });
+</script>

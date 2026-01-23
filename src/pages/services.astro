@@ -1,0 +1,63 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import content from '../data/siteContent.json';
+
+// Mapping icons for separate rendering since JSON is text-only (usually) or we can keep SVGs in code or map them.
+// For simplicity in this iteration, I'll inline the massive SVGs here or map them to keys, but to strictly follow "JSON usage", 
+// I will assume the JSON has the logic or I will render them based on index.
+const icons = [
+  `<svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path></svg>`,
+  `<svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>`,
+  `<svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>`
+];
+---
+
+<MainLayout title={content.servicesPage.title} description={content.servicesPage.subtitle}>
+    <!-- Header -->
+    <section class="bg-gray-50 py-20 mt-24 relative">
+         <div class="absolute -left-20 top-0 opacity-5 pointer-events-none rotate-12">
+            <img src="/logo-icon.png" alt="Watermark" class="w-96 h-96 object-contain" />
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">{content.servicesPage.title}</h1>
+            <p class="text-xl text-gray-600 max-w-2xl mx-auto">{content.servicesPage.subtitle}</p>
+        </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-1 gap-12">
+                {content.servicesPage.services.map((service, index) => (
+                    <div class={`flex flex-col md:flex-row gap-8 items-center ${index % 2 !== 0 ? 'md:flex-row-reverse' : ''}`}>
+                        <div class="md:w-1/2">
+                            <div class={`rounded-2xl p-8 ${service.color} shadow-lg transform transition hover:scale-105 relative overflow-hidden group`}>
+                                <div class="absolute -bottom-10 -right-10 w-48 h-48 opacity-10">
+                                     <img src="/logo-icon.png" alt="" class="w-full h-full object-contain brightness-0 invert" />
+                                </div>
+                                <div class="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mb-6 relative z-10">
+                                    <Fragment set:html={icons[index]} />
+                                </div>
+                                <h2 class="text-2xl font-bold text-white mb-4 relative z-10">{service.title}</h2>
+                                <p class="text-blue-50 text-lg leading-relaxed relative z-10">
+                                    {service.description}
+                                </p>
+                            </div>
+                        </div>
+                        <div class="md:w-1/2 px-4">
+                            <h3 class="text-3xl font-bold text-gray-900 mb-4">{content.servicesPage.includesTitle}</h3>
+                            <ul class="space-y-4">
+                                {content.servicesPage.includes.map((item) => (
+                                    <li class="flex items-start">
+                                        <svg class="w-6 h-6 text-secondary mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                        <span class="text-gray-600">{item}</span>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    </div>
+                ))}
+            </div>
+        </div>
+    </section>
+</MainLayout>
