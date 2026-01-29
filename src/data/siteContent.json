@@ -194,17 +194,17 @@
     },
     "aboutPage": {
         "title": "Sobre Nosotros",
-        "subtitle": "Somos un equipo apasionado por la tecnología y el diseño, dedicados a transformar negocios a través de soluciones digitales innovadoras.",
+        "subtitle": "En EVOLUTIVA SOFT, somos arquitectos de la transformación digital. Nos especializamos en consultoría tecnológica de alto nivel, diseñando soluciones robustas que permiten a las empresas evolucionar al ritmo de los mercados actuales. Nuestro enfoque combina ingeniería de precisión con una visión estratégica orientada al retorno de inversión.",
         "storyTitle": "Nuestra Historia",
-        "storyText1": "Fundada en 2023, NovaWeb Solutions nació con el propósito de ayudar a las empresas a navegar la complejidad del mundo digital. Vimos una oportunidad de ofrecer servicios que no solo se vean bien, sino que funcionen excepcionalmente bien.",
-        "storyText2": "Creemos en el código limpio, el diseño intuitivo y las estrategias basadas en datos. Nuestro equipo combina creatividad técnica con perspicacia comercial para entregar productos que realmente impulsan el crecimiento.",
+        "storyText1": "Fundada con la premisa de que la tecnología debe ser el motor del crecimiento empresarial, EVOLUTIVA SOFT nació para cerrar la brecha entre la complejidad técnica y el éxito comercial.",
+        "storyText2": "Entendemos que el software no es un fin en sí mismo, sino una herramienta para la evolución. Por ello, desde nuestros inicios, nos hemos centrado en la creación de ecosistemas digitales basados en código limpio, análisis de datos estratégico y un diseño centrado en el usuario. Hoy, acompañamos a nuestros clientes en cada etapa de su maduración tecnológica, asegurando que cada línea de código contribuya directamente a sus objetivos de negocio.",
         "mission": {
             "title": "Nuestra Misión",
-            "text": "Empoderar a las empresas de todos los tamaños para que alcancen su máximo potencial digital mediante soluciones web innovadoras, accesibles y de alto rendimiento."
+            "text": "Impulsar la evolución digital de las organizaciones mediante consultoría tecnológica estratégica y el desarrollo de soluciones de alto rendimiento. Nos comprometemos a transformar la complejidad técnica en ventajas competitivas, optimizando el flujo de datos para que cada uno de nuestros clientes alcance su máximo potencial de éxito."
         },
         "vision": {
             "title": "Nuestra Visión",
-            "text": "Ser referentes globales en desarrollo web y diseño digital, reconocidos por nuestra excelencia técnica, creatividad y compromiso inquebrantable con el éxito de nuestros clientes."
+            "text": "Consolidarnos para el 2030 como el referente global en arquitectura tecnológica, siendo el aliado estratégico predilecto para las empresas que buscan liderar su industria. Aspiramos a redefinir los estándares de innovación y excelencia, convirtiéndonos en el motor que impulsa la transformación tecnológica sostenible a nivel internacional."
         }
     },
     "servicesPage": {
